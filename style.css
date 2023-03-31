@@ -45,13 +45,13 @@ table{
     font-size: 30px;
     cursor: pointer;
 }
-
-#credit{
-    right: 0;
-    left: 0;
-    position: fixed;
+.footer-copyright.left{
+    text-align: center;
+    position: relative;
     bottom: 0;
-    font-size: 1.2rem;
+    left: 0;
+    right: 0;
+    /* margin: auto; */
 }
 
 /* #credit:hover{
