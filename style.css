@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+td {
+    text-align: center;
+    vertical-align: center;
+    font-size: 70px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    border-radius: 10px;
+    background-color: #303334;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    align-items: center;
+}
+body{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+background:url("https://ashisheditz.com/wp-content/uploads/2021/11/1636215288180-01-scaled.jpeg" );
+
+}
+.with-play{
+    font-size: 2rem;
+    color: rgb(221, 205, 205);
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+}
+.mode{
+    font-size: 1.5rem;
+    color: rgb(210, 196, 196);
+    cursor: pointer;
+}
+td:hover {
+    background-color: #8ea5b1;
+}
+
+table{
+    border-spacing:5px;
+    margin: auto;
+}
+
+.box{
+    transition: all 0.5s;
+}
+
+#reset{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#credit{
+    right: 0;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    font-size: 1.2rem;
+}
+
+/* #credit:hover{
+    opacity: 1;
+} */
